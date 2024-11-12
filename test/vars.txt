@@ -1,0 +1,61 @@
+# this is a comment
+# between this row
+
+# and this one, is a section divider
+
+#key_value pair notes
+#  variable names: starts with lowercase letter, is mostly letters, underscores instead of spaces
+#  integers
+#    each script will determine the units it needs: pixel, seconds, hours, etc
+#    e.g. pixels: 800 or 600; time values: 300 or 24; server numbers: 5151
+#  text
+#    e.g. recipe names: [bunny snacks] and search terms: [drawing paper]
+#    plain text, without brackets (unless a bracket is actually in the name of the object)
+#  
+
+#assertions, check to make sure your personal vars.txt file works with the updated script 
+file_version,1
+screen_width,2560
+screen_height,1440
+
+#character level dependent values
+grind_interval,300
+consume_interval,60
+
+#Inventory UI
+search_x,500
+search_x2,1615
+search_y,285
+close_inv_x,2379
+close_inv_y,88
+first_slot_x,310
+sixth_slot_x,922
+first_slot_y,372
+first_slot_consume_one_offset_y,473
+cancel_queue_x,615
+cancel_queue_y,947
+grinder_toggle_x,1282
+grinder_toggle_y,1175
+
+#Stats (others derived)
+stats_x,1505
+health_y,669
+fortitude_y,1038
+
+#Dino Stats
+dino_stats_x,1505
+dino_health_y,670
+dino_melee_y,900
+
+#Armor (use rough center of location, others are derived)
+head_x,1080
+head_y,287
+feet_x,1476
+feet_y,542
+
+#common search terms
+berries,b
+crops,a
+food,bunny snacks
+water,pink lemonade
+xp_craft,paper
