@@ -15,39 +15,47 @@
 
 #assertions, check to make sure your personal vars.txt file works with the updated script 
 file_version,1
-screen_width,2560
 screen_height,1440
+screen_width,2560
 
-#character level dependent values
-grind_interval,300
+#character level and environment dependent values
 consume_interval,60
+grind_interval,300
+grind_hours,24
 
-#Inventory UI
+#inventory UI
+cancel_queue_x,615
+cancel_queue_y,947
+close_inv_x,2379
+close_inv_y,88
+crafting_x,600
+crafting_y,175
+first_slot_consume_one_offset_y,473
+first_slot_x,310
+first_slot_y,372
+grind_x,1280
+grind_y,1105
+grinder_toggle_x,1282
+grinder_toggle_y,1175
 search_x,500
 search_x2,1615
 search_y,285
-close_inv_x,2379
-close_inv_y,88
-first_slot_x,310
 sixth_slot_x,922
-first_slot_y,372
-first_slot_consume_one_offset_y,473
-cancel_queue_x,615
-cancel_queue_y,947
-grinder_toggle_x,1282
-grinder_toggle_y,1175
+transfer_x1,565
+transfer_x2,1906
+transfer_y,262
 
-#Stats (others derived)
-stats_x,1505
+#stats (others derived)
 health_y,669
 fortitude_y,1038
+stats_x,1505
 
-#Dino Stats
-dino_stats_x,1505
+#dino Stats
 dino_health_y,670
 dino_melee_y,900
+dino_stats_x,1505
 
-#Armor (use rough center of location, others are derived)
+#armor (use rough center of location, others are derived)
 head_x,1080
 head_y,287
 feet_x,1476
@@ -59,3 +67,7 @@ crops,a
 food,bunny snacks
 water,pink lemonade
 xp_craft,paper
+xp_craft2,fiber
+
+#keybindings in the game
+poop,p
