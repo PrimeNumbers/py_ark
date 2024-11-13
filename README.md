@@ -1,7 +1,9 @@
 # py_ark
+I have automated portions of this game that are trivial/boring, but also parts of the game that cause stress in my hands/wrists. \
 All my python scripts that interact with the video game Ark: Survival Ascended on my behalf will be under this MIT license. \
+The scripts can only do what a human with decent eyesight and hand movements could do. \
 My scripts are written in python, but depend on libraries that may contain other languages and dependencies. \
-All the libraries and modules referenced have their own licenses. \
+All the libraries and modules I have referenced have their own licenses to be respected. \
 ------------------------------------------------------------\
 Ubuntu: 24.04.1 LTS \
 Python: 3.12.3 \
