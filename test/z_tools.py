@@ -1,4 +1,4 @@
-#collection of tools used across my variousscripts
+#collection of tools used across my various scripts
 import time
 from time import sleep, gmtime, strftime
 import pyautogui
