@@ -3,9 +3,7 @@ import csv #read from csv files
 from pprint import pprint #pretty print lists
 
 #load file and return a list of key value pairs
-def load_vars(version):
-    # Define the file's name.
-    filename = "vars.txt"
+def load_vars(filename,version):
     myvars = []
     warns = []
 
@@ -56,20 +54,20 @@ def val(key,keys,vals):
 
 if __name__ == "__main__":
     #extract the keys and values
-    keys,vals = load_vars('1') #passing the version number that you expect it to be
+    keys,vals = load_vars("vars.txt",'1') #passing the version number that you expect it to be
 
 
-##    #example value extraction:
-##    ver = val('file_version',keys,vals)
-##    print(ver)
-##
-##    #print contents
-##    view_pairs = True
-##    if view_pairs:
-##        i = 0
-##        k = len(keys)
-##        j = []
-##        while i < k:
-##            j.append([keys[i],vals[i]])
-##            i+=1
-##        pprint(j)
+    #example value extraction:
+    ver = val('file_version',keys,vals)
+    print(ver)
+
+    #print contents
+    view_pairs = True
+    if view_pairs:
+        i = 0
+        k = len(keys)
+        j = []
+        while i < k:
+            j.append([keys[i],vals[i]])
+            i+=1
+        pprint(j)
