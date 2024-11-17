@@ -6,7 +6,7 @@ from playsound import playsound
 
 #play a sound
 def alert():
-    playsound("media/drip.ogg")
+    playsound("media/chimes.wav")
     sleep(5)
     return None
 
