@@ -29,6 +29,7 @@ def LocateCenterClickWait(png_filename,click,wait,k):
 
 if __name__ == '__main__':
     #example call to locate center click wait on an object it finds
+    k=0
     k,found = LocateCenterClickWait('media/inventory_open',True,2,k)
 
     #example call to play a sound
