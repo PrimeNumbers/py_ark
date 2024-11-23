@@ -15,9 +15,13 @@ python3 -m venv snek
 
 change the current directory to the snek/bin \
 cd /home/prime/Desktop/snek/bin/
+Windows:
+C:\Users\MyUserName\Desktop\snek\Scripts\
 
 while in the snek/bin, activate the virtual environment\
 source activate
+Windows:
+activate
 
 deactivate the virtual environment\
 deactivate
