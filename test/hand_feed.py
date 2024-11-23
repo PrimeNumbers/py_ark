@@ -1,3 +1,8 @@
+#this script detects when an inventory is open and tries to transfer all from your personal inventory into the baby dino
+#have an empty inventory except for what your dino eats as it doesn't differentiate
+#script will auto timeout if no inventory is found within the alotted time
+#holding the "left control" + "c" will interrupt the script in the running window
+
 from time import sleep
 import pyautogui
 pyautogui.PAUSE = 0.25 #delay between pyautogui calls
